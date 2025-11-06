@@ -11,4 +11,8 @@ def portfolio(request):
 def starter(request):
     return render(request, 'starter-page.html')
 
+def contact(request):
+    return render(request, 'contact.html')
+
+
 # Create your views here.
